@@ -1,11 +1,17 @@
 # handlers/start_handler.py
-from telegram import Update, ForceReply
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Send a message when the command /start is issued."""
-    user = update.effective_user
-    await update.message.reply_html(
-        rf"Hi {user.mention_html()}!",
-        reply_markup=ForceReply(selective=True),
-    )
+    """Sends a message with three inline buttons attached."""
+    keyboard = [
+        [
+            InlineKeyboardButton("Generate wallet", callback_data="1"),
+            InlineKeyboardButton("Option 2", callback_data="2"),
+        ],
+        [InlineKeyboardButton("Option 3", callback_data="3")],
+    ]
+
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    await update.message.reply_text("Please choose:", reply_markup=reply_markup)

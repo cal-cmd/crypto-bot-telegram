@@ -1,4 +1,4 @@
-# scripts/generate_wallet.py
+# scripts/wallet.py
 from web3 import Web3
 
 def create_wallet():
