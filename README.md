@@ -1,7 +1,9 @@
 # Telegram DeFi Trading Bot
-> **Note:** This is a demo version, so you will only be able to buy & send funds for full access or redistribution reach out below.
+> **Note:** This is a demo version, so you will only be able to generate a wallet.
 > 
-A crypto trading bot supporting multiple wallets with faster trading, tx privacy, and more!
+A crypto trading bot supporting multiple wallets with faster trading, tx privacy, and more! Stop using bots that charge you 1%+ on each buy & sell and try ours! 
+
+Built for serious traders who need to react quickly to market movements and trade often.
 
 ## Installing
 To get started with this bot, follow these steps:
@@ -13,11 +15,11 @@ To get started with this bot, follow these steps:
 
 
 ## Curious about the bot? Reach out!
-Contact here
+Contact us: contact@safepile.com
 
 ### Features/addons:
 - Customize menus and messages for branding
-- Configure trade fees for users of the bot (if needed)
+- Configure trade fees for users of the bot (if needed for commerical use)
 - Sniper mode, buy & sell, multiple wallets, and more
 - TX simulation (avoid malicious contracts and failed txs) 
 - Gas refunds (~5% chance of partial priority fee refunds, only on Ethereum)
