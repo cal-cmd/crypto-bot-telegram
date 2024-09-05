@@ -8,6 +8,10 @@ Built for serious traders who need to react quickly to market movements and trad
 ## Installing
 To get started with this bot, follow these steps:
 
+1. Message our bot on telegram `@safepile_bot`
+
+OR
+
 1. Clone the repository: `git clone https://github.com/cal-cmd/crypto-bot-telegram.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Configure the bot: Edit the `config.py` file with your settings.
