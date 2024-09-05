@@ -19,7 +19,8 @@ OR
 
 
 ## Curious about the bot? Reach out!
-Contact us: contact@safepile.com
+Email: `contact@safepile.com`
+Telegram: `@Choppytide`
 
 ### Features/addons:
 - Customize menus and messages for branding
